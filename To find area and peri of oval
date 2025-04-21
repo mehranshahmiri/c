@@ -1,0 +1,12 @@
+// to find area and peri of oval
+#include <stdio.h>
+int main() {
+    float a = 6; 
+    float b = 4;  
+    float area, perimeter;
+
+    area = 3.14 * a * b;
+    perimeter = 3.14 * (a + b);
+    printf("Area of oval = %f\n", area);
+    printf("Perimeter of oval (approx) = %f\n", perimeter);
+}

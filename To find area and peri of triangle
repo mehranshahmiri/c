@@ -1,0 +1,12 @@
+// to find area and peri of triangle 
+#include <stdio.h>
+int main() {
+    float a = 3, b = 4, c = 5;
+    float base = 4, height = 5;  
+    float area, perimeter;
+
+    area = 0.5 * base * height;   
+    perimeter = a + b + c;        
+    printf("Area of triangle = %f\n", area);
+    printf("Perimeter of triangle = %f\n", perimeter);
+}

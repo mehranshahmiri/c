@@ -1,0 +1,12 @@
+//to find area and peri of rhombus
+#include <stdio.h>
+int main() {
+    int side = 6;
+    int d1 = 8, d2 = 6;
+    int perimeter;
+    float area;
+    area = 0.5 * d1 * d2;        
+    perimeter = 4 * side;        
+    printf("Area of rhombus = %.2f\n", area);
+    printf("Perimeter of rhombus = %d\n", perimeter);
+}

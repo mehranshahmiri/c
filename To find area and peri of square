@@ -1,0 +1,10 @@
+// to find area and peri of square
+#include <stdio.h>
+int main() {
+    int s=10;
+    int peri,area;
+    peri=4*s;
+    area=s*s;
+    printf("peri of square=%d\n",peri);
+    printf("area of square=%d\n",area);
+}

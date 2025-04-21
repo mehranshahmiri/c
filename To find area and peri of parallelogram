@@ -1,0 +1,11 @@
+// to find area and peri of parallelogram
+#include <stdio.h>
+int main() {
+    int base = 10, height = 5, side = 7;
+    int perimeter;
+    int area;
+    area = base * height;
+    perimeter = 2 * (base + side);
+    printf("Area of parallelogram = %d\n", area);
+    printf("Perimeter of parallelogram = %d\n", perimeter);
+}

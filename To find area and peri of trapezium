@@ -1,0 +1,14 @@
+// to find area and peri of trapezium 
+#include <stdio.h>
+int main() {
+    int a = 8, b = 5;
+    int c = 4, d = 6;
+    int height = 5;
+    float area;
+    int perimeter;
+
+    area = 0.5 * (a + b) * height;
+    perimeter = a + b + c + d;
+    printf("Area of trapezium = %f\n", area);
+    printf("Perimeter of trapezium = %d\n", perimeter);
+}

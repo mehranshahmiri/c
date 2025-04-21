@@ -1,0 +1,11 @@
+//to find area and peri of regular pentagon 
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float side = 5;
+    float area, perimeter;
+    perimeter = 5 * side;
+    area = (5.0 / 4) * (side * side) / tan(M_PI / 5);
+    printf("Perimeter of pentagon = %f\n", perimeter);
+    printf("Area of pentagon = %f\n", area);
+}

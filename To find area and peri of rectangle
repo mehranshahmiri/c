@@ -1,0 +1,11 @@
+// to find area and peri of rectangle
+#include <stdio.h>
+int main() {
+    int l=10; 
+    int b=10;
+    int peri,area;
+    peri=2*(l*b);
+    area=l*b;
+    printf("peri of rectangle=%d\n",peri);
+    printf("area of rectangle=%d\n",area);
+}

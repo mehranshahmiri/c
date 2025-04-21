@@ -1,0 +1,10 @@
+//to find area and peri of circle 
+#include <stdio.h>
+int main() {
+    int r=10; 
+    int peri,area;
+    peri=2*(3.14*r);
+    area=3.14*(r*r);
+    printf("peri of circle=%d\n",peri);
+    printf("area of circle=%d\n",area);
+}
